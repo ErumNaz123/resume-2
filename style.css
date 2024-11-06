@@ -1,0 +1,125 @@
+
+body{
+    margin: 0px;
+    padding: 20px;
+    height: 100vh;
+    width: 95%;
+    
+    
+    
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 10px;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(231, 220, 241);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: x-large;
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    
+    
+}
+
+
+.left-div{
+    background-color:rgb(174, 148, 197);
+    color:black;
+    border-radius: 20px;
+    padding: 20px;
+    
+    
+}
+
+
+
+  
+.left-div li{
+
+list-style: square;
+
+
+    
+
+}
+                
+                img{
+                                        
+                    border-radius: 50px;
+                    height: 250px;
+                    width: 220px;
+                margin-top: 5px;
+                margin-left: 45px;
+                
+                
+                border: 2px solid rgb(190, 164, 190);
+                box-shadow: 10px 10px 20px darkorchid,
+                            -10px -10px 20px rgb(17, 2, 17);
+                
+                z-index: 1;
+                    
+                    
+                    
+                                          
+                }
+              
+.right-div{
+
+    background-color: rgb(215, 186, 241);
+    
+    border-radius: 20px;
+padding: 40px;
+   
+
+}
+
+                
+h1{
+    margin: 2px;
+    
+    background-color: purple;
+    border-radius: 50px;
+    
+    color:white;
+    text-shadow: 0px 0px 10px black,
+                 0px 0px 20px black,
+                 0px 0px 40px black,
+                 0px 0px 80px black;
+                 font-size: larger;
+                 text-align: center;
+
+             
+
+
+}
+
+
+
+ 
+
+p{
+    text-align: evenly;
+    padding: 20px;
+    margin: 2px;
+}
+                header{
+                    color:white;
+                    text-shadow: 0px 0px 10px black,
+                                 0px 0px 20px black,
+                                 0px 0px 40px black,
+                                 0px 0px 80px black;
+                                 font-size: 50px;
+                                 background-color: purple;
+                                 display: flex;
+                                 justify-content: center;
+                                 align-items: center;
+                                 border-radius: 50px;
+                                                            
+                                }
+                
