@@ -32,9 +32,7 @@ body{
     background-color:rgb(174, 148, 197);
     color:black;
     border-radius: 20px;
-    padding: 20px;
-    
-    
+    padding: 10px;    
 }
 
 
@@ -54,29 +52,20 @@ list-style: square;
                     border-radius: 50px;
                     height: 250px;
                     width: 220px;
-                margin-top: 5px;
-                margin-left: 45px;
+                    margin-top: 5px;
+                    margin-left: 45px;
                 
                 
                 border: 2px solid rgb(190, 164, 190);
                 box-shadow: 10px 10px 20px darkorchid,
-                            -10px -10px 20px rgb(17, 2, 17);
-                
-                z-index: 1;
-                    
-                    
-                    
+                            -10px -10px 20px rgb(17, 2, 17);      
                                           
                 }
-              
+
 .right-div{
-
+    padding: 40px;
     background-color: rgb(215, 186, 241);
-    
     border-radius: 20px;
-padding: 40px;
-   
-
 }
 
                 
@@ -94,14 +83,7 @@ h1{
                  font-size: larger;
                  text-align: center;
 
-             
-
-
 }
-
-
-
- 
 
 p{
     text-align: evenly;
@@ -122,4 +104,23 @@ p{
                                  border-radius: 50px;
                                                             
                                 }
-                
+                                @media (min-width: 600px) {
+                                    .main-div {
+                                        flex-direction: row;
+                                    }
+                                    .left-div {
+                                        width: 45%;
+                                    }
+                                }
+                                
+                                @media (min-width: 1024px) {
+                                    .main-div {
+                                        padding: 20px;
+                                    }
+                                    h1 {
+                                        font-size: x-large;
+                                    }
+                                    .left-div, .right-div {
+                                        padding: 40px;
+                                    }
+                                }
